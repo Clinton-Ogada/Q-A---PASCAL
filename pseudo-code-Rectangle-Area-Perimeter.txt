@@ -1,0 +1,15 @@
+Start
+  // Prompt the user to enter the length and width of the rectangle
+  PRINT "Enter the length of the rectangle:"
+  READ length
+  PRINT "Enter the width of the rectangle:"
+  READ width
+
+  // Calculate the area and perimeter of the rectangle
+  area = length * width
+  perimeter = 2 * (length + width)
+
+  // Display the results to the user
+  PRINT "The area of the rectangle is ", area, "."
+  PRINT "The perimeter of the rectangle is ", perimeter, "."
+Stop
