@@ -1,0 +1,10 @@
+Start
+  PRINT "Enter the first number:"
+  READ num1
+  PRINT "Enter the second number:"
+  READ num2
+  sum = num1 + num2
+  avg = sum / 2
+  PRINT "The sum of ", num1, " and ", num2, " is ", sum, "."
+  PRINT "The average of ", num1, " and ", num2, " is ", avg, "."
+Stop
