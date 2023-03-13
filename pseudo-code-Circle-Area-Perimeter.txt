@@ -1,0 +1,9 @@
+ {*This is  a pseudo-code that can be used to prompt the user to enter the diameter of a circle which will be used to calculate the perimeter and area of the circle*}
+ Start
+PRINT “enter diameter parameter”
+       READ D
+PERIMETER = 22/7*D
+AREA = 22/7*D/2*D/2
+PRINT PERIMETER
+PRINT AREA
+Stop
