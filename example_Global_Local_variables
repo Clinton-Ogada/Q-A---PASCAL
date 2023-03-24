@@ -1,0 +1,19 @@
+program example;
+
+var
+   globalVar : integer;
+
+procedure testProcedure;
+var
+   localVar : integer;
+begin
+   localVar := 10;
+   globalVar := 20;
+   writeln('Local variable: ', localVar);
+end;
+
+begin
+   globalVar := 5;
+   testProcedure;
+   writeln('Global variable: ', globalVar);
+end.
